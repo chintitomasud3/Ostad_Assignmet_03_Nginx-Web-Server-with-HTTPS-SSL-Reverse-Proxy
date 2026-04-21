@@ -89,6 +89,8 @@ http {
 ## Creating Backend 
 ```
 sudo apt install python3-pip
+#install the server
+sudo apt install httpserver
 # starting the server
 sudo python3 -m  http.server 3000
 ```
